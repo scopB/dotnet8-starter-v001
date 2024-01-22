@@ -90,3 +90,6 @@
 /Users/pawatthirasakthana/Desktop/PreProject/dotnet8-starter-v001/obj/Debug/net8.0/TestMobile.pdb
 /Users/pawatthirasakthana/Desktop/PreProject/dotnet8-starter-v001/obj/Debug/net8.0/TestMobile.genruntimeconfig.cache
 /Users/pawatthirasakthana/Desktop/PreProject/dotnet8-starter-v001/obj/Debug/net8.0/ref/TestMobile.dll
+/Users/pawatthirasakthana/Desktop/PreProject/dotnet8-starter-v001/obj/Debug/net8.0/TestMobile.sourcelink.json
+/Users/pawatthirasakthana/Desktop/PreProject/dotnet8-starter-v001/bin/Debug/net8.0/DotNetEnv.dll
+/Users/pawatthirasakthana/Desktop/PreProject/dotnet8-starter-v001/bin/Debug/net8.0/Sprache.dll

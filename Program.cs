@@ -1,5 +1,5 @@
 using System.Text;
-using auth.Authentication;
+using authentication.Authentication;
 using dbContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -35,7 +35,13 @@ builder.Services.AddCors(options =>
 
 
 //Connect PostreSQL Database start here
-var db = configuration.GetConnectionString("DefaultConnection");
+var host = Environment.GetEnvironmentVariable("HOST");
+var port = Environment.GetEnvironmentVariable("PORT");
+var database = Environment.GetEnvironmentVariable("DATABASE");
+var username = Environment.GetEnvironmentVariable("USERNAME");
+var password = Environment.GetEnvironmentVariable("PASSWORD");
+
+var db = host + port + database + username + password;
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
