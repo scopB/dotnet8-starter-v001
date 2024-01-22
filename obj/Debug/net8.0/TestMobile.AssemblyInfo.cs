@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30ca4d35ecb85c7cf98a16e9283d866b5e7b4805")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace auth.Authentication;
+namespace authentication.Authentication;
 
 public class Authentication
 {
